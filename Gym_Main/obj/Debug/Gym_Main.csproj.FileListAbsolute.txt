@@ -1,0 +1,339 @@
+D:\zoom\bit_project\20210703_Bit_pj\Gym_Main\bin\Debug\Gym_Main.exe.config
+D:\zoom\bit_project\20210703_Bit_pj\Gym_Main\bin\Debug\Gym_Main.exe
+D:\zoom\bit_project\20210703_Bit_pj\Gym_Main\bin\Debug\Gym_Main.pdb
+D:\zoom\bit_project\20210703_Bit_pj\Gym_Main\obj\Debug\Gym_Main.csprojAssemblyReference.cache
+D:\zoom\bit_project\20210703_Bit_pj\Gym_Main\obj\Debug\MainWindow.g.cs
+D:\zoom\bit_project\20210703_Bit_pj\Gym_Main\obj\Debug\App.g.cs
+D:\zoom\bit_project\20210703_Bit_pj\Gym_Main\obj\Debug\Gym_Main_MarkupCompile.cache
+D:\zoom\bit_project\20210703_Bit_pj\Gym_Main\obj\Debug\Gym_Main_MarkupCompile.lref
+D:\zoom\bit_project\20210703_Bit_pj\Gym_Main\obj\Debug\MainWindow.baml
+D:\zoom\bit_project\20210703_Bit_pj\Gym_Main\obj\Debug\Gym_Main.g.resources
+D:\zoom\bit_project\20210703_Bit_pj\Gym_Main\obj\Debug\Gym_Main.Properties.Resources.resources
+D:\zoom\bit_project\20210703_Bit_pj\Gym_Main\obj\Debug\Gym_Main.csproj.GenerateResource.cache
+D:\zoom\bit_project\20210703_Bit_pj\Gym_Main\obj\Debug\Gym_Main.csproj.CoreCompileInputs.cache
+D:\zoom\bit_project\20210703_Bit_pj\Gym_Main\obj\Debug\Gym_Main.exe
+D:\zoom\bit_project\20210703_Bit_pj\Gym_Main\obj\Debug\Gym_Main.pdb
+D:\zoom\bit_project\20210706_Bit_pj\Gym_Main\obj\Debug\Gym_Main.csprojAssemblyReference.cache
+D:\zoom\bit_project\20210706_Bit_pj\Gym_Main\obj\Debug\Pages\TrainingInfo.g.cs
+D:\zoom\bit_project\20210706_Bit_pj\Gym_Main\obj\Debug\Pages\TrainingSection.g.cs
+D:\zoom\bit_project\20210706_Bit_pj\Gym_Main\obj\Debug\Pages\TrainingSelect.g.cs
+D:\zoom\bit_project\20210706_Bit_pj\Gym_Main\obj\Debug\App.g.cs
+D:\zoom\bit_project\20210706_Bit_pj\Gym_Main\obj\Debug\Gym_Main_MarkupCompile.cache
+D:\zoom\bit_project\20210706_Bit_pj\Gym_Main\obj\Debug\Gym_Main_MarkupCompile.lref
+D:\zoom\bit_project\20210706_Bit_pj\Gym_Main\obj\Debug\Gym_Main.exe
+D:\zoom\bit_project\20210706_Bit_pj\Gym_Main\obj\Debug\Gym_Main.pdb
+D:\zoom\bit_project\20210706_Bit_pj\Gym_Main\bin\Debug\Gym_Main.exe.config
+D:\zoom\bit_project\20210706_Bit_pj\Gym_Main\bin\Debug\Gym_Main.exe
+D:\zoom\bit_project\20210706_Bit_pj\Gym_Main\bin\Debug\Gym_Main.pdb
+D:\zoom\bit_project\20210706_Bit_pj\Gym_Main\obj\Debug\MainWindow.g.cs
+D:\zoom\bit_project\20210706_Bit_pj\Gym_Main\obj\Debug\MainWindow.baml
+D:\zoom\bit_project\20210706_Bit_pj\Gym_Main\obj\Debug\Pages\TrainingInfo.baml
+D:\zoom\bit_project\20210706_Bit_pj\Gym_Main\obj\Debug\Pages\TrainingSection.baml
+D:\zoom\bit_project\20210706_Bit_pj\Gym_Main\obj\Debug\Pages\TrainingSelect.baml
+D:\zoom\bit_project\20210706_Bit_pj\Gym_Main\obj\Debug\Gym_Main.g.resources
+D:\zoom\bit_project\20210706_Bit_pj\Gym_Main\obj\Debug\Gym_Main.Properties.Resources.resources
+D:\zoom\bit_project\20210706_Bit_pj\Gym_Main\obj\Debug\Gym_Main.csproj.GenerateResource.cache
+D:\zoom\bit_project\20210706_Bit_pj\Gym_Main\obj\Debug\Gym_Main.csproj.CoreCompileInputs.cache
+D:\zoom\bit_project\20210706_Bit_pj\Gym_Main\obj\Debug\Pages\TrainingMain.g.cs
+D:\zoom\bit_project\20210706_Bit_pj\Gym_Main\obj\Debug\Pages\TrainingMain.baml
+D:\zoom\bit_project\20210707_Bit_pj\Gym_Main\bin\Debug\Gym_Main.exe.config
+D:\zoom\bit_project\20210707_Bit_pj\Gym_Main\bin\Debug\Gym_Main.exe
+D:\zoom\bit_project\20210707_Bit_pj\Gym_Main\bin\Debug\Gym_Main.pdb
+D:\zoom\bit_project\20210707_Bit_pj\Gym_Main\obj\Debug\MainWindow.g.cs
+D:\zoom\bit_project\20210707_Bit_pj\Gym_Main\obj\Debug\Pages\TrainingInfo.g.cs
+D:\zoom\bit_project\20210707_Bit_pj\Gym_Main\obj\Debug\Pages\TrainingMain.g.cs
+D:\zoom\bit_project\20210707_Bit_pj\Gym_Main\obj\Debug\Pages\TrainingSection.g.cs
+D:\zoom\bit_project\20210707_Bit_pj\Gym_Main\obj\Debug\Pages\TrainingSelect.g.cs
+D:\zoom\bit_project\20210707_Bit_pj\Gym_Main\obj\Debug\App.g.cs
+D:\zoom\bit_project\20210707_Bit_pj\Gym_Main\obj\Debug\Gym_Main_MarkupCompile.cache
+D:\zoom\bit_project\20210707_Bit_pj\Gym_Main\obj\Debug\Gym_Main_MarkupCompile.lref
+D:\zoom\bit_project\20210707_Bit_pj\Gym_Main\obj\Debug\MainWindow.baml
+D:\zoom\bit_project\20210707_Bit_pj\Gym_Main\obj\Debug\Pages\TrainingInfo.baml
+D:\zoom\bit_project\20210707_Bit_pj\Gym_Main\obj\Debug\Pages\TrainingMain.baml
+D:\zoom\bit_project\20210707_Bit_pj\Gym_Main\obj\Debug\Pages\TrainingSection.baml
+D:\zoom\bit_project\20210707_Bit_pj\Gym_Main\obj\Debug\Pages\TrainingSelect.baml
+D:\zoom\bit_project\20210707_Bit_pj\Gym_Main\obj\Debug\Gym_Main.g.resources
+D:\zoom\bit_project\20210707_Bit_pj\Gym_Main\obj\Debug\Gym_Main.Properties.Resources.resources
+D:\zoom\bit_project\20210707_Bit_pj\Gym_Main\obj\Debug\Gym_Main.csproj.GenerateResource.cache
+D:\zoom\bit_project\20210707_Bit_pj\Gym_Main\obj\Debug\Gym_Main.csproj.CoreCompileInputs.cache
+D:\zoom\bit_project\20210707_Bit_pj\Gym_Main\obj\Debug\Gym_Main.exe
+D:\zoom\bit_project\20210707_Bit_pj\Gym_Main\obj\Debug\Gym_Main.pdb
+D:\zoom\bit_project\20210707_Bit_pj\Gym_Main\obj\Debug\Gym_Main.csprojAssemblyReference.cache
+D:\zoom\bit_project\20210707_Bit_pj\Gym_Main\bin\Debug\dll\x86\OpenCvSharpExtern.dll
+D:\zoom\bit_project\20210707_Bit_pj\Gym_Main\bin\Debug\dll\x86\opencv_videoio_ffmpeg452.dll
+D:\zoom\bit_project\20210707_Bit_pj\Gym_Main\bin\Debug\dll\x64\OpenCvSharpExtern.dll
+D:\zoom\bit_project\20210707_Bit_pj\Gym_Main\bin\Debug\dll\x64\opencv_videoio_ffmpeg452_64.dll
+D:\zoom\bit_project\20210707_Bit_pj\Gym_Main\bin\Debug\OpenCvSharp.Extensions.dll
+D:\zoom\bit_project\20210707_Bit_pj\Gym_Main\bin\Debug\OpenCvSharp.dll
+D:\zoom\bit_project\20210707_Bit_pj\Gym_Main\bin\Debug\OpenCvSharp.WpfExtensions.dll
+D:\zoom\bit_project\20210707_Bit_pj\Gym_Main\bin\Debug\System.Buffers.dll
+D:\zoom\bit_project\20210707_Bit_pj\Gym_Main\bin\Debug\System.Drawing.Common.dll
+D:\zoom\bit_project\20210707_Bit_pj\Gym_Main\bin\Debug\System.Memory.dll
+D:\zoom\bit_project\20210707_Bit_pj\Gym_Main\bin\Debug\System.Numerics.Vectors.dll
+D:\zoom\bit_project\20210707_Bit_pj\Gym_Main\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\zoom\bit_project\20210707_Bit_pj\Gym_Main\bin\Debug\System.ValueTuple.dll
+D:\zoom\bit_project\20210707_Bit_pj\Gym_Main\obj\Debug\Gym_Main_Content.g.cs
+D:\zoom\bit_project\20210707_Bit_pj\Gym_Main\obj\Debug\Gym_Main.csproj.CopyComplete
+D:\zoom\bit_project\20210708_Bit_pj\Gym_Main\bin\Debug\dll\x86\OpenCvSharpExtern.dll
+D:\zoom\bit_project\20210708_Bit_pj\Gym_Main\bin\Debug\dll\x86\opencv_videoio_ffmpeg452.dll
+D:\zoom\bit_project\20210708_Bit_pj\Gym_Main\bin\Debug\dll\x64\OpenCvSharpExtern.dll
+D:\zoom\bit_project\20210708_Bit_pj\Gym_Main\bin\Debug\dll\x64\opencv_videoio_ffmpeg452_64.dll
+D:\zoom\bit_project\20210708_Bit_pj\Gym_Main\bin\Debug\Gym_Main.exe.config
+D:\zoom\bit_project\20210708_Bit_pj\Gym_Main\bin\Debug\Gym_Main.exe
+D:\zoom\bit_project\20210708_Bit_pj\Gym_Main\bin\Debug\Gym_Main.pdb
+D:\zoom\bit_project\20210708_Bit_pj\Gym_Main\bin\Debug\OpenCvSharp.Extensions.dll
+D:\zoom\bit_project\20210708_Bit_pj\Gym_Main\bin\Debug\OpenCvSharp.dll
+D:\zoom\bit_project\20210708_Bit_pj\Gym_Main\bin\Debug\OpenCvSharp.WpfExtensions.dll
+D:\zoom\bit_project\20210708_Bit_pj\Gym_Main\bin\Debug\System.Buffers.dll
+D:\zoom\bit_project\20210708_Bit_pj\Gym_Main\bin\Debug\System.Drawing.Common.dll
+D:\zoom\bit_project\20210708_Bit_pj\Gym_Main\bin\Debug\System.Memory.dll
+D:\zoom\bit_project\20210708_Bit_pj\Gym_Main\bin\Debug\System.Numerics.Vectors.dll
+D:\zoom\bit_project\20210708_Bit_pj\Gym_Main\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\zoom\bit_project\20210708_Bit_pj\Gym_Main\bin\Debug\System.ValueTuple.dll
+D:\zoom\bit_project\20210708_Bit_pj\Gym_Main\obj\Debug\Gym_Main.csprojAssemblyReference.cache
+D:\zoom\bit_project\20210708_Bit_pj\Gym_Main\obj\Debug\MainWindow.g.cs
+D:\zoom\bit_project\20210708_Bit_pj\Gym_Main\obj\Debug\Pages\TrainingInfo.g.cs
+D:\zoom\bit_project\20210708_Bit_pj\Gym_Main\obj\Debug\Pages\TrainingMain.g.cs
+D:\zoom\bit_project\20210708_Bit_pj\Gym_Main\obj\Debug\Pages\TrainingSection.g.cs
+D:\zoom\bit_project\20210708_Bit_pj\Gym_Main\obj\Debug\Pages\TrainingSelect.g.cs
+D:\zoom\bit_project\20210708_Bit_pj\Gym_Main\obj\Debug\App.g.cs
+D:\zoom\bit_project\20210708_Bit_pj\Gym_Main\obj\Debug\Gym_Main_Content.g.cs
+D:\zoom\bit_project\20210708_Bit_pj\Gym_Main\obj\Debug\Gym_Main_MarkupCompile.cache
+D:\zoom\bit_project\20210708_Bit_pj\Gym_Main\obj\Debug\Gym_Main_MarkupCompile.lref
+D:\zoom\bit_project\20210708_Bit_pj\Gym_Main\obj\Debug\MainWindow.baml
+D:\zoom\bit_project\20210708_Bit_pj\Gym_Main\obj\Debug\Pages\TrainingInfo.baml
+D:\zoom\bit_project\20210708_Bit_pj\Gym_Main\obj\Debug\Pages\TrainingMain.baml
+D:\zoom\bit_project\20210708_Bit_pj\Gym_Main\obj\Debug\Pages\TrainingSection.baml
+D:\zoom\bit_project\20210708_Bit_pj\Gym_Main\obj\Debug\Pages\TrainingSelect.baml
+D:\zoom\bit_project\20210708_Bit_pj\Gym_Main\obj\Debug\Gym_Main.g.resources
+D:\zoom\bit_project\20210708_Bit_pj\Gym_Main\obj\Debug\Gym_Main.Properties.Resources.resources
+D:\zoom\bit_project\20210708_Bit_pj\Gym_Main\obj\Debug\Gym_Main.csproj.GenerateResource.cache
+D:\zoom\bit_project\20210708_Bit_pj\Gym_Main\obj\Debug\Gym_Main.csproj.CoreCompileInputs.cache
+D:\zoom\bit_project\20210708_Bit_pj\Gym_Main\obj\Debug\Gym_Main.csproj.CopyComplete
+D:\zoom\bit_project\20210708_Bit_pj\Gym_Main\obj\Debug\Gym_Main.exe
+D:\zoom\bit_project\20210708_Bit_pj\Gym_Main\obj\Debug\Gym_Main.pdb
+C:\Users\user\git\Infinite-Gym\Gym_Main\obj\Debug\Gym_Main.csproj.AssemblyReference.cache
+C:\Users\user\git\Infinite-Gym\Gym_Main\obj\Debug\MainWindow.g.cs
+C:\Users\user\git\Infinite-Gym\Gym_Main\obj\Debug\Pages\TrainingInfo.g.cs
+C:\Users\user\git\Infinite-Gym\Gym_Main\obj\Debug\Pages\TrainingMain.g.cs
+C:\Users\user\git\Infinite-Gym\Gym_Main\obj\Debug\Pages\TrainingSection.g.cs
+C:\Users\user\git\Infinite-Gym\Gym_Main\obj\Debug\App.g.cs
+C:\Users\user\git\Infinite-Gym\Gym_Main\obj\Debug\Gym_Main_Content.g.cs
+C:\Users\user\git\Infinite-Gym\Gym_Main\obj\Debug\Gym_Main_MarkupCompile.cache
+C:\Users\user\git\Infinite-Gym\Gym_Main\obj\Debug\Gym_Main_MarkupCompile.lref
+C:\Users\user\git\Infinite-Gym\Gym_Main\obj\Debug\Gym_Main.exe
+C:\Users\user\git\Infinite-Gym\Gym_Main\obj\Debug\Gym_Main.pdb
+C:\Users\user\git\Infinite-Gym\Gym_Main\obj\Debug\MainWindow.baml
+C:\Users\user\git\Infinite-Gym\Gym_Main\obj\Debug\Pages\TrainingInfo.baml
+C:\Users\user\git\Infinite-Gym\Gym_Main\obj\Debug\Pages\TrainingMain.baml
+C:\Users\user\git\Infinite-Gym\Gym_Main\obj\Debug\Pages\TrainingSection.baml
+C:\Users\user\git\Infinite-Gym\Gym_Main\obj\Debug\Gym_Main.g.resources
+C:\Users\user\git\Infinite-Gym\Gym_Main\bin\Debug\dll\x86\OpenCvSharpExtern.dll
+C:\Users\user\git\Infinite-Gym\Gym_Main\bin\Debug\dll\x86\opencv_videoio_ffmpeg452.dll
+C:\Users\user\git\Infinite-Gym\Gym_Main\bin\Debug\dll\x64\OpenCvSharpExtern.dll
+C:\Users\user\git\Infinite-Gym\Gym_Main\bin\Debug\dll\x64\opencv_videoio_ffmpeg452_64.dll
+C:\Users\user\git\Infinite-Gym\Gym_Main\bin\Debug\Gym_Main.exe.config
+C:\Users\user\git\Infinite-Gym\Gym_Main\bin\Debug\Gym_Main.exe
+C:\Users\user\git\Infinite-Gym\Gym_Main\bin\Debug\Gym_Main.pdb
+C:\Users\user\git\Infinite-Gym\Gym_Main\bin\Debug\OpenCvSharp.Extensions.dll
+C:\Users\user\git\Infinite-Gym\Gym_Main\bin\Debug\OpenCvSharp.dll
+C:\Users\user\git\Infinite-Gym\Gym_Main\bin\Debug\OpenCvSharp.WpfExtensions.dll
+C:\Users\user\git\Infinite-Gym\Gym_Main\bin\Debug\System.Buffers.dll
+C:\Users\user\git\Infinite-Gym\Gym_Main\bin\Debug\System.Drawing.Common.dll
+C:\Users\user\git\Infinite-Gym\Gym_Main\bin\Debug\System.Memory.dll
+C:\Users\user\git\Infinite-Gym\Gym_Main\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\user\git\Infinite-Gym\Gym_Main\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\user\git\Infinite-Gym\Gym_Main\bin\Debug\System.ValueTuple.dll
+C:\Users\user\git\Infinite-Gym\Gym_Main\obj\Debug\Gym_Main.Properties.Resources.resources
+C:\Users\user\git\Infinite-Gym\Gym_Main\obj\Debug\Gym_Main.csproj.GenerateResource.cache
+C:\Users\user\git\Infinite-Gym\Gym_Main\obj\Debug\Gym_Main.csproj.CoreCompileInputs.cache
+C:\Users\user\git\Infinite-Gym\Gym_Main\obj\Debug\Gym_Main.csproj.CopyComplete
+C:\Users\user\git\Infinite-Gym\Gym_Main\obj\Debug\Pages\TrainingSelect.g.cs
+C:\Users\user\git\Infinite-Gym\Gym_Main\obj\Debug\Pages\TrainingSelect.baml
+C:\Users\user\git\Infinite-Gym\Gym_Main\obj\Debug\Dictionary1.baml
+C:\Users\user\git\Infinite-Gym\Gym_Main\obj\Debug\Pages\TrainingReport.g.cs
+C:\Users\user\git\Infinite-Gym\Gym_Main\obj\Debug\Pages\TrainingReport.baml
+C:\Users\user\git\Infinite-Gym\Gym_Main\obj\Debug\Pages\TrainingSetting.g.cs
+C:\Users\user\git\Infinite-Gym\Gym_Main\obj\Debug\Pages\TrainingSetting.baml
+C:\Users\user\git\Infinite-Gym\Gym_Main\obj\Debug\Pages\TrainingPrepare.g.cs
+C:\Users\user\git\Infinite-Gym\Gym_Main\obj\Debug\Pages\TrainingPrepare.baml
+C:\Users\user\Desktop\Infinite-Gym (2)\Gym_Main\bin\Debug\dll\x86\OpenCvSharpExtern.dll
+C:\Users\user\Desktop\Infinite-Gym (2)\Gym_Main\bin\Debug\dll\x86\opencv_videoio_ffmpeg452.dll
+C:\Users\user\Desktop\Infinite-Gym (2)\Gym_Main\bin\Debug\dll\x64\OpenCvSharpExtern.dll
+C:\Users\user\Desktop\Infinite-Gym (2)\Gym_Main\bin\Debug\dll\x64\opencv_videoio_ffmpeg452_64.dll
+C:\Users\user\Desktop\Infinite-Gym (2)\Gym_Main\bin\Debug\Gym_Main.exe.config
+C:\Users\user\Desktop\Infinite-Gym (2)\Gym_Main\bin\Debug\Gym_Main.exe
+C:\Users\user\Desktop\Infinite-Gym (2)\Gym_Main\bin\Debug\Gym_Main.pdb
+C:\Users\user\Desktop\Infinite-Gym (2)\Gym_Main\bin\Debug\OpenCvSharp.Extensions.dll
+C:\Users\user\Desktop\Infinite-Gym (2)\Gym_Main\bin\Debug\OpenCvSharp.dll
+C:\Users\user\Desktop\Infinite-Gym (2)\Gym_Main\bin\Debug\OpenCvSharp.WpfExtensions.dll
+C:\Users\user\Desktop\Infinite-Gym (2)\Gym_Main\bin\Debug\System.Buffers.dll
+C:\Users\user\Desktop\Infinite-Gym (2)\Gym_Main\bin\Debug\System.Drawing.Common.dll
+C:\Users\user\Desktop\Infinite-Gym (2)\Gym_Main\bin\Debug\System.Memory.dll
+C:\Users\user\Desktop\Infinite-Gym (2)\Gym_Main\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\user\Desktop\Infinite-Gym (2)\Gym_Main\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\user\Desktop\Infinite-Gym (2)\Gym_Main\bin\Debug\System.ValueTuple.dll
+C:\Users\user\Desktop\Infinite-Gym (2)\Gym_Main\obj\Debug\Gym_Main.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Infinite-Gym (2)\Gym_Main\obj\Debug\Dictionary1.baml
+C:\Users\user\Desktop\Infinite-Gym (2)\Gym_Main\obj\Debug\MainWindow.g.cs
+C:\Users\user\Desktop\Infinite-Gym (2)\Gym_Main\obj\Debug\Pages\TrainingInfo.g.cs
+C:\Users\user\Desktop\Infinite-Gym (2)\Gym_Main\obj\Debug\Pages\TrainingMain.g.cs
+C:\Users\user\Desktop\Infinite-Gym (2)\Gym_Main\obj\Debug\Pages\TrainingPrepare.g.cs
+C:\Users\user\Desktop\Infinite-Gym (2)\Gym_Main\obj\Debug\Pages\TrainingReport.g.cs
+C:\Users\user\Desktop\Infinite-Gym (2)\Gym_Main\obj\Debug\Pages\TrainingSection.g.cs
+C:\Users\user\Desktop\Infinite-Gym (2)\Gym_Main\obj\Debug\Pages\TrainingSelect.g.cs
+C:\Users\user\Desktop\Infinite-Gym (2)\Gym_Main\obj\Debug\Pages\TrainingSetting.g.cs
+C:\Users\user\Desktop\Infinite-Gym (2)\Gym_Main\obj\Debug\App.g.cs
+C:\Users\user\Desktop\Infinite-Gym (2)\Gym_Main\obj\Debug\Gym_Main_Content.g.cs
+C:\Users\user\Desktop\Infinite-Gym (2)\Gym_Main\obj\Debug\Gym_Main_MarkupCompile.cache
+C:\Users\user\Desktop\Infinite-Gym (2)\Gym_Main\obj\Debug\Gym_Main_MarkupCompile.lref
+C:\Users\user\Desktop\Infinite-Gym (2)\Gym_Main\obj\Debug\MainWindow.baml
+C:\Users\user\Desktop\Infinite-Gym (2)\Gym_Main\obj\Debug\Pages\TrainingInfo.baml
+C:\Users\user\Desktop\Infinite-Gym (2)\Gym_Main\obj\Debug\Pages\TrainingMain.baml
+C:\Users\user\Desktop\Infinite-Gym (2)\Gym_Main\obj\Debug\Pages\TrainingPrepare.baml
+C:\Users\user\Desktop\Infinite-Gym (2)\Gym_Main\obj\Debug\Pages\TrainingReport.baml
+C:\Users\user\Desktop\Infinite-Gym (2)\Gym_Main\obj\Debug\Pages\TrainingSection.baml
+C:\Users\user\Desktop\Infinite-Gym (2)\Gym_Main\obj\Debug\Pages\TrainingSelect.baml
+C:\Users\user\Desktop\Infinite-Gym (2)\Gym_Main\obj\Debug\Pages\TrainingSetting.baml
+C:\Users\user\Desktop\Infinite-Gym (2)\Gym_Main\obj\Debug\Gym_Main.g.resources
+C:\Users\user\Desktop\Infinite-Gym (2)\Gym_Main\obj\Debug\Gym_Main.Properties.Resources.resources
+C:\Users\user\Desktop\Infinite-Gym (2)\Gym_Main\obj\Debug\Gym_Main.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Infinite-Gym (2)\Gym_Main\obj\Debug\Gym_Main.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Infinite-Gym (2)\Gym_Main\obj\Debug\Gym_Main.csproj.CopyComplete
+C:\Users\user\Desktop\Infinite-Gym (2)\Gym_Main\obj\Debug\Gym_Main.exe
+C:\Users\user\Desktop\Infinite-Gym (2)\Gym_Main\obj\Debug\Gym_Main.pdb
+C:\Users\user\Downloads\소켓 연결 시도 파일들\Infinite-Gym (2)\Gym_Main\bin\Debug\dll\x86\OpenCvSharpExtern.dll
+C:\Users\user\Downloads\소켓 연결 시도 파일들\Infinite-Gym (2)\Gym_Main\bin\Debug\dll\x86\opencv_videoio_ffmpeg452.dll
+C:\Users\user\Downloads\소켓 연결 시도 파일들\Infinite-Gym (2)\Gym_Main\bin\Debug\dll\x64\OpenCvSharpExtern.dll
+C:\Users\user\Downloads\소켓 연결 시도 파일들\Infinite-Gym (2)\Gym_Main\bin\Debug\dll\x64\opencv_videoio_ffmpeg452_64.dll
+C:\Users\user\Downloads\소켓 연결 시도 파일들\Infinite-Gym (2)\Gym_Main\bin\Debug\Gym_Main.exe.config
+C:\Users\user\Downloads\소켓 연결 시도 파일들\Infinite-Gym (2)\Gym_Main\bin\Debug\Gym_Main.exe
+C:\Users\user\Downloads\소켓 연결 시도 파일들\Infinite-Gym (2)\Gym_Main\bin\Debug\Gym_Main.pdb
+C:\Users\user\Downloads\소켓 연결 시도 파일들\Infinite-Gym (2)\Gym_Main\bin\Debug\OpenCvSharp.Extensions.dll
+C:\Users\user\Downloads\소켓 연결 시도 파일들\Infinite-Gym (2)\Gym_Main\bin\Debug\OpenCvSharp.dll
+C:\Users\user\Downloads\소켓 연결 시도 파일들\Infinite-Gym (2)\Gym_Main\bin\Debug\OpenCvSharp.WpfExtensions.dll
+C:\Users\user\Downloads\소켓 연결 시도 파일들\Infinite-Gym (2)\Gym_Main\bin\Debug\System.Buffers.dll
+C:\Users\user\Downloads\소켓 연결 시도 파일들\Infinite-Gym (2)\Gym_Main\bin\Debug\System.Drawing.Common.dll
+C:\Users\user\Downloads\소켓 연결 시도 파일들\Infinite-Gym (2)\Gym_Main\bin\Debug\System.Memory.dll
+C:\Users\user\Downloads\소켓 연결 시도 파일들\Infinite-Gym (2)\Gym_Main\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\user\Downloads\소켓 연결 시도 파일들\Infinite-Gym (2)\Gym_Main\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\user\Downloads\소켓 연결 시도 파일들\Infinite-Gym (2)\Gym_Main\bin\Debug\System.ValueTuple.dll
+C:\Users\user\Downloads\소켓 연결 시도 파일들\Infinite-Gym (2)\Gym_Main\obj\Debug\Gym_Main.csproj.AssemblyReference.cache
+C:\Users\user\Downloads\소켓 연결 시도 파일들\Infinite-Gym (2)\Gym_Main\obj\Debug\Dictionary1.baml
+C:\Users\user\Downloads\소켓 연결 시도 파일들\Infinite-Gym (2)\Gym_Main\obj\Debug\MainWindow.g.cs
+C:\Users\user\Downloads\소켓 연결 시도 파일들\Infinite-Gym (2)\Gym_Main\obj\Debug\Pages\TrainingInfo.g.cs
+C:\Users\user\Downloads\소켓 연결 시도 파일들\Infinite-Gym (2)\Gym_Main\obj\Debug\Pages\TrainingMain.g.cs
+C:\Users\user\Downloads\소켓 연결 시도 파일들\Infinite-Gym (2)\Gym_Main\obj\Debug\Pages\TrainingPrepare.g.cs
+C:\Users\user\Downloads\소켓 연결 시도 파일들\Infinite-Gym (2)\Gym_Main\obj\Debug\Pages\TrainingReport.g.cs
+C:\Users\user\Downloads\소켓 연결 시도 파일들\Infinite-Gym (2)\Gym_Main\obj\Debug\Pages\TrainingSection.g.cs
+C:\Users\user\Downloads\소켓 연결 시도 파일들\Infinite-Gym (2)\Gym_Main\obj\Debug\Pages\TrainingSelect.g.cs
+C:\Users\user\Downloads\소켓 연결 시도 파일들\Infinite-Gym (2)\Gym_Main\obj\Debug\Pages\TrainingSetting.g.cs
+C:\Users\user\Downloads\소켓 연결 시도 파일들\Infinite-Gym (2)\Gym_Main\obj\Debug\App.g.cs
+C:\Users\user\Downloads\소켓 연결 시도 파일들\Infinite-Gym (2)\Gym_Main\obj\Debug\Gym_Main_Content.g.cs
+C:\Users\user\Downloads\소켓 연결 시도 파일들\Infinite-Gym (2)\Gym_Main\obj\Debug\Gym_Main_MarkupCompile.cache
+C:\Users\user\Downloads\소켓 연결 시도 파일들\Infinite-Gym (2)\Gym_Main\obj\Debug\Gym_Main_MarkupCompile.lref
+C:\Users\user\Downloads\소켓 연결 시도 파일들\Infinite-Gym (2)\Gym_Main\obj\Debug\MainWindow.baml
+C:\Users\user\Downloads\소켓 연결 시도 파일들\Infinite-Gym (2)\Gym_Main\obj\Debug\Pages\TrainingInfo.baml
+C:\Users\user\Downloads\소켓 연결 시도 파일들\Infinite-Gym (2)\Gym_Main\obj\Debug\Pages\TrainingMain.baml
+C:\Users\user\Downloads\소켓 연결 시도 파일들\Infinite-Gym (2)\Gym_Main\obj\Debug\Pages\TrainingPrepare.baml
+C:\Users\user\Downloads\소켓 연결 시도 파일들\Infinite-Gym (2)\Gym_Main\obj\Debug\Pages\TrainingReport.baml
+C:\Users\user\Downloads\소켓 연결 시도 파일들\Infinite-Gym (2)\Gym_Main\obj\Debug\Pages\TrainingSection.baml
+C:\Users\user\Downloads\소켓 연결 시도 파일들\Infinite-Gym (2)\Gym_Main\obj\Debug\Pages\TrainingSelect.baml
+C:\Users\user\Downloads\소켓 연결 시도 파일들\Infinite-Gym (2)\Gym_Main\obj\Debug\Pages\TrainingSetting.baml
+C:\Users\user\Downloads\소켓 연결 시도 파일들\Infinite-Gym (2)\Gym_Main\obj\Debug\Gym_Main.g.resources
+C:\Users\user\Downloads\소켓 연결 시도 파일들\Infinite-Gym (2)\Gym_Main\obj\Debug\Gym_Main.Properties.Resources.resources
+C:\Users\user\Downloads\소켓 연결 시도 파일들\Infinite-Gym (2)\Gym_Main\obj\Debug\Gym_Main.csproj.GenerateResource.cache
+C:\Users\user\Downloads\소켓 연결 시도 파일들\Infinite-Gym (2)\Gym_Main\obj\Debug\Gym_Main.csproj.CoreCompileInputs.cache
+C:\Users\user\Downloads\소켓 연결 시도 파일들\Infinite-Gym (2)\Gym_Main\obj\Debug\Gym_Main.csproj.CopyComplete
+C:\Users\user\Downloads\소켓 연결 시도 파일들\Infinite-Gym (2)\Gym_Main\obj\Debug\Gym_Main.exe
+C:\Users\user\Downloads\소켓 연결 시도 파일들\Infinite-Gym (2)\Gym_Main\obj\Debug\Gym_Main.pdb
+C:\Users\h0104\Desktop\Infinite-Gym (3)\Gym_Main\bin\Debug\dll\x86\OpenCvSharpExtern.dll
+C:\Users\h0104\Desktop\Infinite-Gym (3)\Gym_Main\bin\Debug\dll\x86\opencv_videoio_ffmpeg452.dll
+C:\Users\h0104\Desktop\Infinite-Gym (3)\Gym_Main\bin\Debug\dll\x64\OpenCvSharpExtern.dll
+C:\Users\h0104\Desktop\Infinite-Gym (3)\Gym_Main\bin\Debug\dll\x64\opencv_videoio_ffmpeg452_64.dll
+C:\Users\h0104\Desktop\Infinite-Gym (3)\Gym_Main\bin\Debug\Gym_Main.exe.config
+C:\Users\h0104\Desktop\Infinite-Gym (3)\Gym_Main\bin\Debug\Gym_Main.exe
+C:\Users\h0104\Desktop\Infinite-Gym (3)\Gym_Main\bin\Debug\Gym_Main.pdb
+C:\Users\h0104\Desktop\Infinite-Gym (3)\Gym_Main\bin\Debug\OpenCvSharp.Extensions.dll
+C:\Users\h0104\Desktop\Infinite-Gym (3)\Gym_Main\bin\Debug\OpenCvSharp.dll
+C:\Users\h0104\Desktop\Infinite-Gym (3)\Gym_Main\bin\Debug\OpenCvSharp.WpfExtensions.dll
+C:\Users\h0104\Desktop\Infinite-Gym (3)\Gym_Main\bin\Debug\System.Buffers.dll
+C:\Users\h0104\Desktop\Infinite-Gym (3)\Gym_Main\bin\Debug\System.Drawing.Common.dll
+C:\Users\h0104\Desktop\Infinite-Gym (3)\Gym_Main\bin\Debug\System.Memory.dll
+C:\Users\h0104\Desktop\Infinite-Gym (3)\Gym_Main\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\h0104\Desktop\Infinite-Gym (3)\Gym_Main\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\h0104\Desktop\Infinite-Gym (3)\Gym_Main\bin\Debug\System.ValueTuple.dll
+C:\Users\h0104\Desktop\Infinite-Gym (3)\Gym_Main\obj\Debug\Gym_Main.csprojAssemblyReference.cache
+C:\Users\h0104\Desktop\Infinite-Gym (3)\Gym_Main\obj\Debug\Dictionary1.baml
+C:\Users\h0104\Desktop\Infinite-Gym (3)\Gym_Main\obj\Debug\MainWindow.g.cs
+C:\Users\h0104\Desktop\Infinite-Gym (3)\Gym_Main\obj\Debug\Pages\TrainingInfo.g.cs
+C:\Users\h0104\Desktop\Infinite-Gym (3)\Gym_Main\obj\Debug\Pages\TrainingMain.g.cs
+C:\Users\h0104\Desktop\Infinite-Gym (3)\Gym_Main\obj\Debug\Pages\TrainingPrepare.g.cs
+C:\Users\h0104\Desktop\Infinite-Gym (3)\Gym_Main\obj\Debug\Pages\TrainingReport.g.cs
+C:\Users\h0104\Desktop\Infinite-Gym (3)\Gym_Main\obj\Debug\Pages\TrainingSection.g.cs
+C:\Users\h0104\Desktop\Infinite-Gym (3)\Gym_Main\obj\Debug\Pages\TrainingSelect.g.cs
+C:\Users\h0104\Desktop\Infinite-Gym (3)\Gym_Main\obj\Debug\Pages\TrainingSetting.g.cs
+C:\Users\h0104\Desktop\Infinite-Gym (3)\Gym_Main\obj\Debug\App.g.cs
+C:\Users\h0104\Desktop\Infinite-Gym (3)\Gym_Main\obj\Debug\Gym_Main_Content.g.cs
+C:\Users\h0104\Desktop\Infinite-Gym (3)\Gym_Main\obj\Debug\Gym_Main_MarkupCompile.cache
+C:\Users\h0104\Desktop\Infinite-Gym (3)\Gym_Main\obj\Debug\Gym_Main_MarkupCompile.lref
+C:\Users\h0104\Desktop\Infinite-Gym (3)\Gym_Main\obj\Debug\MainWindow.baml
+C:\Users\h0104\Desktop\Infinite-Gym (3)\Gym_Main\obj\Debug\Pages\TrainingInfo.baml
+C:\Users\h0104\Desktop\Infinite-Gym (3)\Gym_Main\obj\Debug\Pages\TrainingMain.baml
+C:\Users\h0104\Desktop\Infinite-Gym (3)\Gym_Main\obj\Debug\Pages\TrainingPrepare.baml
+C:\Users\h0104\Desktop\Infinite-Gym (3)\Gym_Main\obj\Debug\Pages\TrainingReport.baml
+C:\Users\h0104\Desktop\Infinite-Gym (3)\Gym_Main\obj\Debug\Pages\TrainingSection.baml
+C:\Users\h0104\Desktop\Infinite-Gym (3)\Gym_Main\obj\Debug\Pages\TrainingSelect.baml
+C:\Users\h0104\Desktop\Infinite-Gym (3)\Gym_Main\obj\Debug\Pages\TrainingSetting.baml
+C:\Users\h0104\Desktop\Infinite-Gym (3)\Gym_Main\obj\Debug\Gym_Main.g.resources
+C:\Users\h0104\Desktop\Infinite-Gym (3)\Gym_Main\obj\Debug\Gym_Main.Properties.Resources.resources
+C:\Users\h0104\Desktop\Infinite-Gym (3)\Gym_Main\obj\Debug\Gym_Main.csproj.GenerateResource.cache
+C:\Users\h0104\Desktop\Infinite-Gym (3)\Gym_Main\obj\Debug\Gym_Main.csproj.CoreCompileInputs.cache
+C:\Users\h0104\Desktop\Infinite-Gym (3)\Gym_Main\obj\Debug\Gym_Main.csproj.CopyComplete
+C:\Users\h0104\Desktop\Infinite-Gym (3)\Gym_Main\obj\Debug\Gym_Main.exe
+C:\Users\h0104\Desktop\Infinite-Gym (3)\Gym_Main\obj\Debug\Gym_Main.pdb
+C:\Users\h0104\Desktop\Infinite-Gym\Gym_Main\bin\Debug\dll\x86\OpenCvSharpExtern.dll
+C:\Users\h0104\Desktop\Infinite-Gym\Gym_Main\bin\Debug\dll\x86\opencv_videoio_ffmpeg452.dll
+C:\Users\h0104\Desktop\Infinite-Gym\Gym_Main\bin\Debug\dll\x64\OpenCvSharpExtern.dll
+C:\Users\h0104\Desktop\Infinite-Gym\Gym_Main\bin\Debug\dll\x64\opencv_videoio_ffmpeg452_64.dll
+C:\Users\h0104\Desktop\Infinite-Gym\Gym_Main\bin\Debug\Gym_Main.exe.config
+C:\Users\h0104\Desktop\Infinite-Gym\Gym_Main\bin\Debug\Gym_Main.exe
+C:\Users\h0104\Desktop\Infinite-Gym\Gym_Main\bin\Debug\Gym_Main.pdb
+C:\Users\h0104\Desktop\Infinite-Gym\Gym_Main\bin\Debug\OpenCvSharp.Extensions.dll
+C:\Users\h0104\Desktop\Infinite-Gym\Gym_Main\bin\Debug\OpenCvSharp.dll
+C:\Users\h0104\Desktop\Infinite-Gym\Gym_Main\bin\Debug\OpenCvSharp.WpfExtensions.dll
+C:\Users\h0104\Desktop\Infinite-Gym\Gym_Main\bin\Debug\System.Buffers.dll
+C:\Users\h0104\Desktop\Infinite-Gym\Gym_Main\bin\Debug\System.Drawing.Common.dll
+C:\Users\h0104\Desktop\Infinite-Gym\Gym_Main\bin\Debug\System.Memory.dll
+C:\Users\h0104\Desktop\Infinite-Gym\Gym_Main\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\h0104\Desktop\Infinite-Gym\Gym_Main\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\h0104\Desktop\Infinite-Gym\Gym_Main\bin\Debug\System.ValueTuple.dll
+C:\Users\h0104\Desktop\Infinite-Gym\Gym_Main\obj\Debug\Gym_Main.csprojAssemblyReference.cache
+C:\Users\h0104\Desktop\Infinite-Gym\Gym_Main\obj\Debug\Dictionary1.baml
+C:\Users\h0104\Desktop\Infinite-Gym\Gym_Main\obj\Debug\MainWindow.g.cs
+C:\Users\h0104\Desktop\Infinite-Gym\Gym_Main\obj\Debug\Pages\TrainingInfo.g.cs
+C:\Users\h0104\Desktop\Infinite-Gym\Gym_Main\obj\Debug\Pages\TrainingMain.g.cs
+C:\Users\h0104\Desktop\Infinite-Gym\Gym_Main\obj\Debug\Pages\TrainingPrepare.g.cs
+C:\Users\h0104\Desktop\Infinite-Gym\Gym_Main\obj\Debug\Pages\TrainingReport.g.cs
+C:\Users\h0104\Desktop\Infinite-Gym\Gym_Main\obj\Debug\Pages\TrainingSection.g.cs
+C:\Users\h0104\Desktop\Infinite-Gym\Gym_Main\obj\Debug\Pages\TrainingSelect.g.cs
+C:\Users\h0104\Desktop\Infinite-Gym\Gym_Main\obj\Debug\Pages\TrainingSetting.g.cs
+C:\Users\h0104\Desktop\Infinite-Gym\Gym_Main\obj\Debug\App.g.cs
+C:\Users\h0104\Desktop\Infinite-Gym\Gym_Main\obj\Debug\Gym_Main_Content.g.cs
+C:\Users\h0104\Desktop\Infinite-Gym\Gym_Main\obj\Debug\Gym_Main_MarkupCompile.cache
+C:\Users\h0104\Desktop\Infinite-Gym\Gym_Main\obj\Debug\Gym_Main_MarkupCompile.lref
+C:\Users\h0104\Desktop\Infinite-Gym\Gym_Main\obj\Debug\MainWindow.baml
+C:\Users\h0104\Desktop\Infinite-Gym\Gym_Main\obj\Debug\Pages\TrainingInfo.baml
+C:\Users\h0104\Desktop\Infinite-Gym\Gym_Main\obj\Debug\Pages\TrainingMain.baml
+C:\Users\h0104\Desktop\Infinite-Gym\Gym_Main\obj\Debug\Pages\TrainingPrepare.baml
+C:\Users\h0104\Desktop\Infinite-Gym\Gym_Main\obj\Debug\Pages\TrainingReport.baml
+C:\Users\h0104\Desktop\Infinite-Gym\Gym_Main\obj\Debug\Pages\TrainingSection.baml
+C:\Users\h0104\Desktop\Infinite-Gym\Gym_Main\obj\Debug\Pages\TrainingSelect.baml
+C:\Users\h0104\Desktop\Infinite-Gym\Gym_Main\obj\Debug\Pages\TrainingSetting.baml
+C:\Users\h0104\Desktop\Infinite-Gym\Gym_Main\obj\Debug\Gym_Main.g.resources
+C:\Users\h0104\Desktop\Infinite-Gym\Gym_Main\obj\Debug\Gym_Main.Properties.Resources.resources
+C:\Users\h0104\Desktop\Infinite-Gym\Gym_Main\obj\Debug\Gym_Main.csproj.GenerateResource.cache
+C:\Users\h0104\Desktop\Infinite-Gym\Gym_Main\obj\Debug\Gym_Main.csproj.CoreCompileInputs.cache
+C:\Users\h0104\Desktop\Infinite-Gym\Gym_Main\obj\Debug\Gym_Main.csproj.CopyComplete
+C:\Users\h0104\Desktop\Infinite-Gym\Gym_Main\obj\Debug\Gym_Main.exe
+C:\Users\h0104\Desktop\Infinite-Gym\Gym_Main\obj\Debug\Gym_Main.pdb

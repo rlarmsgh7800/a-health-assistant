@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WpfCap</name>
+    </assembly>
+    <members>
+        <member name="M:CatenaLogic.Windows.Presentation.WebcamPlayer.CapDevice.#ctor">
+            <summary>Initializes the default capture device</summary>
+        </member>
+        <member name="M:CatenaLogic.Windows.Presentation.WebcamPlayer.CapDevice.#ctor(System.String)">
+            <summary>Initializes a specific capture device</summary>
+            <param name="moniker">Moniker string that represents a specific device</param>
+        </member>
+        <member name="M:CatenaLogic.Windows.Presentation.WebcamPlayer.CapDevice.Dispose">
+            <summary>Disposes the object</summary>
+        </member>
+        <member name="E:CatenaLogic.Windows.Presentation.WebcamPlayer.CapDevice.NewBitmapReady">
+            <summary>Event that is invoked when a new bitmap is ready</summary>
+        </member>
+        <member name="P:CatenaLogic.Windows.Presentation.WebcamPlayer.CapDevice.DeviceMonikers">
+            <summary>Gets the device monikers</summary>
+        </member>
+        <member name="P:CatenaLogic.Windows.Presentation.WebcamPlayer.CapDevice.Devices">
+            <summary>Gets the available devices</summary>
+        </member>
+        <member name="P:CatenaLogic.Windows.Presentation.WebcamPlayer.CapDevice.BitmapSource">
+            <summary>Wrapper for the BitmapSource dependency property</summary>
+        </member>
+        <member name="P:CatenaLogic.Windows.Presentation.WebcamPlayer.CapDevice.Name">
+            <summary>Wrapper for the Name dependency property</summary>
+        </member>
+        <member name="P:CatenaLogic.Windows.Presentation.WebcamPlayer.CapDevice.MonikerString">
+            <summary>Wrapper for the MonikerString dependency property</summary>
+        </member>
+        <member name="P:CatenaLogic.Windows.Presentation.WebcamPlayer.CapDevice.Framerate">
+            <summary>Wrapper for the Framerate dependency property</summary>
+        </member>
+        <member name="P:CatenaLogic.Windows.Presentation.WebcamPlayer.CapDevice.IsRunning">
+            <summary>Gets whether the capture device is currently running</summary>
+        </member>
+        <member name="M:CatenaLogic.Windows.Presentation.WebcamPlayer.CapDevice.CurrentApplication_Exit(System.Object,System.Windows.ExitEventArgs)">
+            <summary>Invoked when the application exits</summary>
+            <param name="sender">Sender</param>
+            <param name="e">EventArgs</param>
+        </member>
+        <member name="M:CatenaLogic.Windows.Presentation.WebcamPlayer.CapDevice.capGrabber_NewFrameArrived(System.Object,System.EventArgs)">
+            <summary>Invoked when a new frame arrived</summary>
+            <param name="sender">Sender</param>
+            <param name="e">EventArgs</param>
+        </member>
+        <member name="M:CatenaLogic.Windows.Presentation.WebcamPlayer.CapDevice.MonikerString_Changed(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>Invoked when the MonikerString dependency property has changed</summary>
+            <param name="sender">Sender</param>
+            <param name="e">EventArgs</param>
+        </member>
+        <member name="M:CatenaLogic.Windows.Presentation.WebcamPlayer.CapDevice.capGrabber_PropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>Invoked when a property of the CapGrabber object has changed</summary>
+            <param name="sender">Sender</param>
+            <param name="e">PropertyChangedEventArgs</param>
+        </member>
+        <member name="M:CatenaLogic.Windows.Presentation.WebcamPlayer.CapDevice.UpdateFramerate">
+            <summary>Updates the framerate</summary>
+        </member>
+        <member name="M:CatenaLogic.Windows.Presentation.WebcamPlayer.CapDevice.InitializeDeviceForMoniker(System.String)">
+            <summary>Initialize the device for a specific moniker</summary>
+            <param name="moniker">Moniker to initialize the device for</param>
+        </member>
+        <member name="M:CatenaLogic.Windows.Presentation.WebcamPlayer.CapDevice.Start">
+            <summary>Starts grabbing images from the capture device</summary>
+        </member>
+        <member name="M:CatenaLogic.Windows.Presentation.WebcamPlayer.CapDevice.Stop">
+            <summary>Stops grabbing images from the capture device</summary>
+        </member>
+        <member name="M:CatenaLogic.Windows.Presentation.WebcamPlayer.CapDevice.Release">
+            <summary>Releases the capture device</summary>
+        </member>
+        <member name="M:CatenaLogic.Windows.Presentation.WebcamPlayer.CapDevice.RunWorker">
+            <summary>Worker thread that captures the images</summary>
+        </member>
+        <member name="M:CatenaLogic.Windows.Presentation.WebcamPlayer.CapDevice.ChooseBestFormat(CatenaLogic.Windows.Presentation.WebcamPlayer.IPin,System.Int32)">
+            <summary>Choose the best video format to use.</summary>
+            <remarks>This method tries to query the IAMStreamConfig interface from the pin, then calls IAMStreamConfig::GetStreamCaps and IAMStreamConfig::SetFormat API.</remarks>
+            <param name="src">output pin of the webcam source</param>
+            <returns>true if succeeded.</returns>
+        </member>
+        <member name="P:CatenaLogic.Windows.Presentation.WebcamPlayer.CapGrabber.Width">
+            <summary>Gets or sets the width of the grabber</summary>
+        </member>
+        <member name="P:CatenaLogic.Windows.Presentation.WebcamPlayer.CapGrabber.Height">
+            <summary>Gets or sets the height of the grabber</summary>
+        </member>
+        <member name="T:CatenaLogic.Windows.Presentation.WebcamPlayer.CapHelper">
+            <summary>Class that helps finding the pins for a specific filter</summary>
+        </member>
+        <member name="M:CatenaLogic.Windows.Presentation.WebcamPlayer.CapHelper.GetPin(CatenaLogic.Windows.Presentation.WebcamPlayer.IBaseFilter,CatenaLogic.Windows.Presentation.WebcamPlayer.PinDirection,System.Int32)">
+            <summary>Gets a specific pin of a specific filter</summary>
+            <param name="filter">Filter to retrieve the pin for (defines which object should make this method available)</param>
+            <param name="dir">Direction</param>
+            <param name="num">Number</param>
+            <returns>IPin object or null</returns>
+        </member>
+        <member name="T:CatenaLogic.Windows.Presentation.WebcamPlayer.IAMStreamConfig">
+            <summary>The IAMStreamConfig interface sets the output format on certain capture and compression filters, for both audio and video.
+            Applications can use this interface to set format properties, such as the output dimensions and frame rate (for video) or the sample rate and number of channels (for audio).</summary>
+        </member>
+        <member name="P:CatenaLogic.Windows.Presentation.WebcamPlayer.CapPlayer.Device">
+            <summary>Wrapper for the Device dependency property</summary>
+        </member>
+        <member name="P:CatenaLogic.Windows.Presentation.WebcamPlayer.CapPlayer.Rotation">
+            <summary>Wrapper for the Rotation dependency property</summary>
+        </member>
+        <member name="P:CatenaLogic.Windows.Presentation.WebcamPlayer.CapPlayer.Framerate">
+            <summary>Wrapper for the framerate dependency property</summary>
+        </member>
+        <member name="P:CatenaLogic.Windows.Presentation.WebcamPlayer.CapPlayer.CurrentBitmap">
+            <summary>Gets the current bitmap</summary>
+        </member>
+        <member name="M:CatenaLogic.Windows.Presentation.WebcamPlayer.CapPlayer.CleanUpDevice(CatenaLogic.Windows.Presentation.WebcamPlayer.CapDevice)">
+            <summary>Cleans up a specific device</summary>
+            <param name="device">Device to clean up</param>
+        </member>
+        <member name="M:CatenaLogic.Windows.Presentation.WebcamPlayer.CapPlayer.device_OnNewBitmapReady(System.Object,System.EventArgs)">
+            <summary>Invoked when a new bitmap is ready</summary>
+            <param name="sender">Sender</param>
+            <param name="e">EventArgs</param>
+        </member>
+        <member name="T:CatenaLogic.Windows.Presentation.WebcamPlayer.AnalogVideoStandard">
+            <summary>From AnalogVideoStandard</summary>
+            <remarks>The AnalogVideoStandard enumeration specifies the format of an analog television signal.</remarks>
+        </member>
+        <member name="T:CatenaLogic.Windows.Presentation.WebcamPlayer.VideoStreamConfigCaps">
+            <summary>From VIDEO_STREAM_CONFIG_CAPS</summary>
+            <remarks>The VIDEO_STREAM_CONFIG_CAPS structure describes a range of video formats.
+            Video compression and video capture filters use this structure to describe what formats they can produce.</remarks>
+        </member>
+        <member name="T:CatenaLogic.Windows.Presentation.WebcamPlayer.FilterInfo">
+            <summary>FilterInfo class</summary>
+        </member>
+        <member name="M:CatenaLogic.Windows.Presentation.WebcamPlayer.FilterInfo.#ctor(System.String)">
+            <summary>Initializes a new filter info object</summary>
+            <param name="monikerString">Moniker string to base the filter on</param>
+        </member>
+        <member name="M:CatenaLogic.Windows.Presentation.WebcamPlayer.FilterInfo.#ctor(System.Runtime.InteropServices.ComTypes.IMoniker)">
+            <summary>Initializes a new filter info object</summary>
+            <param name="moniker">Moniker to base the filter on</param>
+        </member>
+        <member name="P:CatenaLogic.Windows.Presentation.WebcamPlayer.FilterInfo.Name">
+            <summary>Gets the name</summary>
+        </member>
+        <member name="P:CatenaLogic.Windows.Presentation.WebcamPlayer.FilterInfo.MonikerString">
+            <summary>Gets the Moniker String</summary>
+        </member>
+        <member name="M:CatenaLogic.Windows.Presentation.WebcamPlayer.FilterInfo.CreateFilter(System.String)">
+            <summary>Creates a specific filter based on the moniker</summary>
+            <param name="filterMoniker">FilterMoniker to create the </param>
+            <returns>Filter or null</returns>
+        </member>
+        <member name="M:CatenaLogic.Windows.Presentation.WebcamPlayer.FilterInfo.GetMonikerString(System.Runtime.InteropServices.ComTypes.IMoniker)">
+            <summary>Gets the moniker string for a specific moniker</summary>
+            <param name="moniker">Moniker to retrieve the moniker string of</param>
+            <returns>Moniker string</returns>
+        </member>
+        <member name="M:CatenaLogic.Windows.Presentation.WebcamPlayer.FilterInfo.GetName(System.Runtime.InteropServices.ComTypes.IMoniker)">
+            <summary>Gets the name of a specific moniker</summary>
+            <param name="moniker">Moniker object to get the name of</param>
+            <returns>Name of a specific moniker</returns>
+        </member>
+        <member name="M:CatenaLogic.Windows.Presentation.WebcamPlayer.FilterInfo.GetName(System.String)">
+            <summary>Gets the name of a specific moniker</summary>
+            <param name="monikerString">Moniker string to get the name of</param>
+            <returns>Name of a specific moniker</returns>
+        </member>
+        <member name="M:CatenaLogic.Windows.Presentation.WebcamPlayer.FilterInfo.CompareTo(System.Object)">
+            <summary>Compares the current object to another object</summary>
+            <param name="value">Value to compare the current object to</param>
+            <returns>If 0, the values are equal</returns>
+        </member>
+        <member name="T:CatenaLogic.Windows.Presentation.WebcamPlayer.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:CatenaLogic.Windows.Presentation.WebcamPlayer.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:CatenaLogic.Windows.Presentation.WebcamPlayer.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

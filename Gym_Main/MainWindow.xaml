@@ -1,0 +1,141 @@
+﻿<Window x:Class="Gym_Main.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Gym_Main"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="900" Width="1600" WindowStartupLocation="CenterScreen" Background="#FF0C0A12" Loaded="handMouse">
+    <Window.Resources>
+        <Storyboard x:Key="Win_MinMaxExit_Forward">
+            <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)" Storyboard.TargetName="rectBase">
+                <EasingColorKeyFrame KeyTime="0" Value="#FF19141B"/>
+                <EasingColorKeyFrame KeyTime="0:0:0.1" Value="#FF6E2BAA"/>
+            </ColorAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="Win_MiinMaxExit_Backward">
+            <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)" Storyboard.TargetName="rectBase">
+                <EasingColorKeyFrame KeyTime="0" Value="#FF6E2BAA"/>
+                <EasingColorKeyFrame KeyTime="0:0:0.4" Value="#FF19151D"/>
+            </ColorAnimationUsingKeyFrames>
+        </Storyboard>
+    </Window.Resources>
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="UIElement.MouseLeftButtonDown" SourceName="rectBase">
+            <BeginStoryboard Storyboard="{StaticResource Win_MinMaxExit_Forward}"/>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="UIElement.MouseRightButtonDown" SourceName="rectBase">
+            <BeginStoryboard Storyboard="{StaticResource Win_MiinMaxExit_Backward}"/>
+        </EventTrigger>
+    </Window.Triggers>
+
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="365*"/>
+            <ColumnDefinition Width="20*"/>
+            <ColumnDefinition Width="11*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="18*"/>
+            <RowDefinition Height="191*"/>
+            <RowDefinition Height="12*"/>
+        </Grid.RowDefinitions>
+        <Frame x:Name="MainGrid" Grid.Column="0" Grid.Row="0" Grid.RowSpan="2" Grid.ColumnSpan="2" Source="/Pages/TrainingMain.xaml" NavigationUIVisibility="Hidden" />
+
+        <Rectangle x:Name="HorBar" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"  Fill="#FF352830" Opacity="0.5" Stroke="#FF474747" Height="71" VerticalAlignment="Top"/>
+        <Rectangle x:Name="verBar" Grid.Column="1" Grid.RowSpan="2" Fill="#FF272028"    Opacity="0.5" Stroke="#FF474747"/>
+        <Viewbox x:Name="viewbox" Grid.Column="1" Stretch="Fill" OpacityMask="Black">
+            <Grid Height="40.903" Width="41">
+                <Rectangle x:Name="rectBase" HorizontalAlignment="Left"  VerticalAlignment="Top" Height="40.903" Width="41" Fill="#FF19141B"  />
+                <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="5.333" Stroke="Black" VerticalAlignment="Top" Width="21" Margin="10,8.07,0,0"/>
+                <Rectangle x:Name="rectangle" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="5.333" Margin="10,16.737,0,0" Stroke="Black" VerticalAlignment="Top" Width="21"/>
+                <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="5.333" Margin="10,25.57,0,0" Stroke="Black" VerticalAlignment="Top" Width="21"/>
+            </Grid>
+        </Viewbox>
+        <Grid  Grid.Column="0" Grid.Row="1" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="30*"/>
+                <ColumnDefinition Width="280*"/>
+                <ColumnDefinition Width="200*"/>
+                <ColumnDefinition Width="11*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="20*"/>
+                <RowDefinition Height="30*"/>
+                <RowDefinition Height="100*"/>
+            </Grid.RowDefinitions>
+            <!--<Border BorderBrush="{x:Null}" Grid.Column="2" Grid.Row="2" >-->
+                <Viewbox VerticalAlignment="Bottom" Grid.Column="2" Grid.Row="2">
+                    <Button x:Name="NextBt" Background="#4C000000" Content="      NEXT >>  " Height="60" Width="220" Foreground="White" FontSize="32" Margin="100,100,100,50"   Click="toNextPage" BorderBrush="#00707070"  />
+                </Viewbox>     
+            <!--</Border>-->
+            <Grid x:Name="btPrevious" Grid.Column="0" Grid.Row="1" MouseLeftButtonDown="toPreviousPage" >
+                <Rectangle Margin="0" StrokeThickness="0"  >
+                    <Rectangle.Fill>
+                        <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
+                            <GradientStop Color="#FF8529C9" Offset="1"/>
+                            <GradientStop Color="#FFED5B2C"/>
+                        </LinearGradientBrush>
+                    </Rectangle.Fill>
+                </Rectangle>
+                <Image x:Name="image_ArrowUP" Source="/source/SourceSelect/Arrow_White.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" >
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform ScaleX="0.3" ScaleY="0.3"/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="0"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+            </Grid>
+        </Grid>
+
+        
+        <Grid x:Name="Grid_HorBar_Sw"  Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="3">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Viewbox Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center"  VerticalAlignment="Top"  >
+                <TextBlock x:Name="btnPage" Text="🏠" TextWrapping="Wrap" FontSize="30" Foreground="#FFC6C4C6" MouseLeftButtonDown="btnHome_MouseLeftButtonDown" RenderTransformOrigin="0.343,0.343" MouseEnter="textbold1" MouseLeave="textnormal1" />
+            </Viewbox>
+            <Viewbox Grid.Row="1" Grid.Column="2" HorizontalAlignment="Left"  VerticalAlignment="Top"  >
+                <TextBlock x:Name="btnHOME" TextWrapping="Wrap" Text="HOME" Foreground="#FFC6C4C6" MouseLeftButtonDown="btnHome_MouseLeftButtonDown" RenderTransformOrigin="0.343,0.343" MouseEnter="textbold1" MouseLeave="textnormal1" />
+            </Viewbox>
+            <Viewbox Grid.Row="1" Grid.Column="4" HorizontalAlignment="Left"  VerticalAlignment="Top"  >
+                <TextBlock x:Name="btnSELECT" TextWrapping="Wrap" Text="EXERCISE" Foreground="#FFC6C4C6" MouseLeftButtonDown="btnSELECT_MouseLeftButtonDown" MouseEnter="textbold2" MouseLeave="textnormal2" />
+            </Viewbox>
+            <Viewbox Grid.Row="1" Grid.Column="6" HorizontalAlignment="Left"  VerticalAlignment="Top"   >
+                <TextBlock x:Name="btnINFO" TextWrapping="Wrap" Text="VIDEO" Foreground="#FFC6C4C6" MouseLeftButtonDown="btnINFO_MouseLeftButtonDown" MouseEnter="textbold3" MouseLeave="textnormal3" />
+            </Viewbox>
+            <Viewbox Grid.Row="1" Grid.Column="8" HorizontalAlignment="Left"  VerticalAlignment="Top"   >
+                <TextBlock x:Name="btnTRAINING" TextWrapping="Wrap" Text="REPORT" Foreground="#FFC6C4C6" MouseLeftButtonDown="btnTRAINING_MouseLeftButtonDown" MouseEnter="textbold4" MouseLeave="textnormal4" />
+            </Viewbox>
+            <Viewbox Grid.Row="1" Grid.Column="10" HorizontalAlignment="Left"  VerticalAlignment="Top"  >
+                <TextBlock x:Name="btnSetting" TextWrapping="Wrap" Text="SETTING" Foreground="#FFC6C4C6" MouseLeftButtonDown="btnSetting_MouseLeftButtonDown" MouseEnter="textbold5" MouseLeave="textnormal5"  />
+            </Viewbox>
+        </Grid>
+
+        
+    </Grid>
+
+
+</Window>

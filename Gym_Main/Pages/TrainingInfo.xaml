@@ -1,0 +1,189 @@
+﻿<Page x:Class="Gym_Main.TrainingInfo"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Gym_Main"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="TrainingInfo">
+    
+       
+    
+    
+    <Page.Resources>
+        <Storyboard x:Key="stbo_rectFog0_hidden">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="rectFog0">
+                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1" Value="{x:Static Visibility.Collapsed}"/>
+            </ObjectAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="stbo_rectFog1_hidden">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="rectFog1">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.2" Value="{x:Static Visibility.Collapsed}"/>
+            </ObjectAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="stbo_rectFog2_hidden">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="rectFog2">
+                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1" Value="{x:Static Visibility.Collapsed}"/>
+            </ObjectAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="stbo_rectFog3_hidden">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="rectFog3">
+                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1" Value="{x:Static Visibility.Collapsed}"/>
+            </ObjectAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="stbo_rectFog4_hidden">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="rectFog4">
+                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1" Value="{x:Static Visibility.Collapsed}"/>
+            </ObjectAnimationUsingKeyFrames>
+        </Storyboard>
+
+        <Storyboard x:Key="stbo_rectFog0_Vi">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="rectFog0">
+                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Collapsed}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1" Value="{x:Static Visibility.Visible}"/>
+            </ObjectAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="stbo_rectFog1_Vi">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="rectFog1">
+                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Collapsed}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1" Value="{x:Static Visibility.Visible}"/>
+            </ObjectAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="stbo_rectFog2_Vi">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="rectFog2">
+                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Collapsed}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1" Value="{x:Static Visibility.Visible}"/>
+            </ObjectAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="stbo_rectFog3_Vi">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="rectFog3">
+                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Collapsed}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1" Value="{x:Static Visibility.Visible}"/>
+            </ObjectAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="stbo_rectFog4_Vi">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="rectFog4">
+                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Collapsed}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1" Value="{x:Static Visibility.Visible}"/>
+            </ObjectAnimationUsingKeyFrames>
+        </Storyboard>
+    </Page.Resources>
+    <Page.Triggers>
+        <EventTrigger RoutedEvent="UIElement.MouseEnter" SourceName="Scroll_00">
+            <BeginStoryboard Storyboard="{StaticResource stbo_rectFog0_hidden}"/>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="UIElement.MouseEnter" SourceName="Scroll_01">
+            <BeginStoryboard  Storyboard="{StaticResource stbo_rectFog1_hidden}"/>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="UIElement.MouseEnter" SourceName="Scroll_02">
+            <BeginStoryboard x:Name="stbo_rectFog2_hidden_BeginStoryboard"  Storyboard="{StaticResource stbo_rectFog2_hidden}"/>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="UIElement.MouseEnter" SourceName="Scroll_03">
+            <BeginStoryboard  Storyboard="{StaticResource stbo_rectFog3_hidden}"/>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="UIElement.MouseEnter" SourceName="Scroll_04">
+            <BeginStoryboard  Storyboard="{StaticResource stbo_rectFog4_hidden}"/>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="UIElement.MouseLeave" SourceName="Scroll_00">
+            <BeginStoryboard Storyboard="{StaticResource stbo_rectFog0_Vi}"/>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="UIElement.MouseLeave" SourceName="Scroll_01">
+            <BeginStoryboard  Storyboard="{StaticResource stbo_rectFog1_Vi}"/>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="UIElement.MouseLeave" SourceName="Scroll_02">
+            <BeginStoryboard  Storyboard="{StaticResource stbo_rectFog2_hidden}"/>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="UIElement.MouseLeave" SourceName="Scroll_03">
+            <BeginStoryboard  Storyboard="{StaticResource stbo_rectFog3_Vi}"/>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="UIElement.MouseLeave" SourceName="Scroll_04">
+            <BeginStoryboard  Storyboard="{StaticResource stbo_rectFog4_Vi}"/>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="UIElement.MouseLeave" SourceName="Scroll_02">
+            <BeginStoryboard  Storyboard="{StaticResource stbo_rectFog2_Vi}"/>
+        </EventTrigger>
+
+    </Page.Triggers>
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="45*"/>
+            <ColumnDefinition Width="161*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="76"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Image Name="selectback_image" Grid.Column="0" Grid.Row="0" Source="/source/SourceInfo/Gym1.jpg" Stretch="Fill"  Grid.ColumnSpan="5" Grid.RowSpan="5" HorizontalAlignment="Left" VerticalAlignment="Top" />
+        <Grid x:Name="Scroll_Box_Union" Grid.Column="0" Grid.Row="1" Margin="20,20,0,20">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            
+            <Grid x:Name="Scroll_00" Grid.Row="0" MouseLeftButtonDown="ExerciseSelect00" >
+                <Border  Background="#FFD432D4">
+                    <Image  Source="/source/SourceSelect/Deadlift.jpg" Stretch="Fill" OpacityMask="#FFA036A0" Margin="1" />
+                </Border>
+                <Rectangle x:Name="rectFog0"   Fill="#FF2A2A2B" Stroke="Black" Margin="0" Opacity="0.7"  />
+                <Viewbox  HorizontalAlignment="Left">
+                    <TextBlock  HorizontalAlignment="Left" Margin="10,57.668,0,10" TextWrapping="Wrap" Text="Deadlift" VerticalAlignment="Top"  Foreground="#FFB2B0B0"/>
+                </Viewbox>
+            </Grid>
+            <Grid x:Name="Scroll_01" Grid.Row="1" MouseLeftButtonDown="ExerciseSelect01" >
+                <Border  Background="#FFD432D4">
+                    <Image  Source="/source/SourceSelect/Squat.jpg" Stretch="Fill" Margin="1"  />
+                </Border>
+                <Rectangle x:Name="rectFog1" Fill="#FF2A2A2B" Stroke="Black" Margin="0" Opacity="0.7"/>
+                <Viewbox  HorizontalAlignment="Left">
+                    <TextBlock  HorizontalAlignment="Left" Margin="10,57.668,0,10" TextWrapping="Wrap" Text="Squat" VerticalAlignment="Top"  Foreground="#FFB2B0B0"/>
+                </Viewbox>
+            </Grid>
+            <Grid x:Name="Scroll_02" Grid.Row="2" MouseLeftButtonDown="ExerciseSelect02" >
+                <Border  Background="#FFD432D4">
+                    <Image  Source="/source/SourceSelect/Push_up.jpg" Stretch="Fill" Margin="1" />
+                </Border>
+                <Rectangle x:Name="rectFog2"   Fill="#FF2A2A2B" Stroke="Black" Margin="0" Opacity="0.7"/>
+                <Viewbox  HorizontalAlignment="Left">
+                    <TextBlock  HorizontalAlignment="Left" Margin="10,57.668,0,10" TextWrapping="Wrap" Text="Push up" VerticalAlignment="Top"  Foreground="#FFB2B0B0"/>
+                </Viewbox>
+            </Grid>
+            <Grid x:Name="Scroll_03" Grid.Row="3" MouseLeftButtonDown="ExerciseSelect03" >
+                <Border  Background="#FFD432D4">
+                    <Image  Source="/source/SourceSelect/Dumbbell_arm.jpg" Stretch="Fill" Margin="1" />
+                </Border>
+                <Rectangle x:Name="rectFog3" Fill="#FF2A2A2B" Stroke="Black" Margin="0" Opacity="0.7"/>
+                <Viewbox   HorizontalAlignment="Left">
+                    <TextBlock  HorizontalAlignment="Left" Margin="10,57.668,0,10" TextWrapping="Wrap" Text="Dumbbell" VerticalAlignment="Top"  Foreground="#FFB2B0B0"/>
+                </Viewbox>
+            </Grid>
+            <Grid x:Name="Scroll_04" Grid.Row="4" MouseLeftButtonDown="ExerciseSelect04" >
+                <Border Background="#FFD432D4">
+                    <Image Source="/source/SourceSelect/Yoga.jpg" Stretch="Fill" Margin="1"  />
+                </Border>
+                <Rectangle x:Name="rectFog4" Fill="#FF2A2A2B" Stroke="Black" Margin="0" Opacity="0.7"/>
+                <Viewbox HorizontalAlignment="Left">
+                    <TextBlock  HorizontalAlignment="Left" Margin="10,57.668,0,10" TextWrapping="Wrap" Text="Yoga" VerticalAlignment="Top"  Foreground="#FFB2B0B0"/>
+                </Viewbox>
+            </Grid>
+        </Grid>
+        <Grid Grid.Column="2" Grid.Row="1">
+            <Viewbox Stretch="Fill" Width="1400">
+                <WebBrowser Name="wb" Margin="20,20,100,20" HorizontalAlignment="Left"  VerticalAlignment="Top" Source="https://www.youtube.com/"/>
+            </Viewbox>
+            
+
+        </Grid>
+
+
+    </Grid>
+</Page>

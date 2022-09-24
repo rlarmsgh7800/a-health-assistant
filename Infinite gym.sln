@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Blend for Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf_Cam", "Wpf_Cam\Wpf_Cam.csproj", "{84EFF19A-A544-468E-8F98-3ADF85A5AE4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameraCaptureWPF", "CameraCaptureWPF\CameraCaptureWPF.csproj", "{0791466A-15CD-476B-BFBF-85D2FC3B402E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Camera_test_01", "WPF_Camera_test_01\WPF_Camera_test_01.csproj", "{8145FC1E-E52F-491D-9FD3-26D2ED0A9CC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gym_Main", "Gym_Main\Gym_Main.csproj", "{D2B1DE3F-3FE6-4D17-9D73-56F1E3095B38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84EFF19A-A544-468E-8F98-3ADF85A5AE4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84EFF19A-A544-468E-8F98-3ADF85A5AE4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84EFF19A-A544-468E-8F98-3ADF85A5AE4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84EFF19A-A544-468E-8F98-3ADF85A5AE4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0791466A-15CD-476B-BFBF-85D2FC3B402E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0791466A-15CD-476B-BFBF-85D2FC3B402E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0791466A-15CD-476B-BFBF-85D2FC3B402E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0791466A-15CD-476B-BFBF-85D2FC3B402E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8145FC1E-E52F-491D-9FD3-26D2ED0A9CC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8145FC1E-E52F-491D-9FD3-26D2ED0A9CC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8145FC1E-E52F-491D-9FD3-26D2ED0A9CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8145FC1E-E52F-491D-9FD3-26D2ED0A9CC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2B1DE3F-3FE6-4D17-9D73-56F1E3095B38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2B1DE3F-3FE6-4D17-9D73-56F1E3095B38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2B1DE3F-3FE6-4D17-9D73-56F1E3095B38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2B1DE3F-3FE6-4D17-9D73-56F1E3095B38}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24F53880-AAFE-4084-97FB-333B53F1E9E1}
+	EndGlobalSection
+EndGlobal

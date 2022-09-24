@@ -1,0 +1,929 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "OpenCvSharp4/4.5.2.20210404": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "5.0.2",
+          "System.Memory": "4.5.4",
+          "System.Runtime.CompilerServices.Unsafe": "5.0.0",
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/net461/OpenCvSharp.Extensions.dll": {},
+          "lib/net461/OpenCvSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net461/OpenCvSharp.Extensions.dll": {},
+          "lib/net461/OpenCvSharp.dll": {}
+        }
+      },
+      "OpenCvSharp4.runtime.win/4.5.2.20210404": {
+        "type": "package",
+        "build": {
+          "build/net/OpenCvSharp4.runtime.win.props": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win-x64/native/OpenCvSharpExtern.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/opencv_videoio_ffmpeg452_64.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/OpenCvSharpExtern.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/opencv_videoio_ffmpeg452.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "OpenCvSharp4.Windows/4.5.2.20210404": {
+        "type": "package",
+        "dependencies": {
+          "OpenCvSharp4": "4.5.2.20210404",
+          "OpenCvSharp4.WpfExtensions": "4.5.2.20210404",
+          "OpenCvSharp4.runtime.win": "4.5.2.20210404"
+        }
+      },
+      "OpenCvSharp4.WpfExtensions/4.5.2.20210404": {
+        "type": "package",
+        "dependencies": {
+          "OpenCvSharp4": "4.5.2.20210404"
+        },
+        "compile": {
+          "lib/net461/OpenCvSharp.WpfExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/net461/OpenCvSharp.WpfExtensions.dll": {}
+        }
+      },
+      "System.Buffers/4.5.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net45/System.Buffers.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Buffers.dll": {}
+        }
+      },
+      "System.Drawing.Common/5.0.2": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Drawing",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Drawing.Common.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Drawing.Common.dll": {}
+        }
+      },
+      "System.Memory/4.5.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.5.1",
+          "System.Numerics.Vectors": "4.5.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.3"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/System.Memory.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Memory.dll": {}
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Numerics",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Numerics.Vectors.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Numerics.Vectors.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/5.0.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net47/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net47/System.ValueTuple.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win": {
+      "OpenCvSharp4/4.5.2.20210404": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "5.0.2",
+          "System.Memory": "4.5.4",
+          "System.Runtime.CompilerServices.Unsafe": "5.0.0",
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/net461/OpenCvSharp.Extensions.dll": {},
+          "lib/net461/OpenCvSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net461/OpenCvSharp.Extensions.dll": {},
+          "lib/net461/OpenCvSharp.dll": {}
+        }
+      },
+      "OpenCvSharp4.runtime.win/4.5.2.20210404": {
+        "type": "package",
+        "build": {
+          "build/net/OpenCvSharp4.runtime.win.props": {}
+        }
+      },
+      "OpenCvSharp4.Windows/4.5.2.20210404": {
+        "type": "package",
+        "dependencies": {
+          "OpenCvSharp4": "4.5.2.20210404",
+          "OpenCvSharp4.WpfExtensions": "4.5.2.20210404",
+          "OpenCvSharp4.runtime.win": "4.5.2.20210404"
+        }
+      },
+      "OpenCvSharp4.WpfExtensions/4.5.2.20210404": {
+        "type": "package",
+        "dependencies": {
+          "OpenCvSharp4": "4.5.2.20210404"
+        },
+        "compile": {
+          "lib/net461/OpenCvSharp.WpfExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/net461/OpenCvSharp.WpfExtensions.dll": {}
+        }
+      },
+      "System.Buffers/4.5.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net45/System.Buffers.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Buffers.dll": {}
+        }
+      },
+      "System.Drawing.Common/5.0.2": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Drawing",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Drawing.Common.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Drawing.Common.dll": {}
+        }
+      },
+      "System.Memory/4.5.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.5.1",
+          "System.Numerics.Vectors": "4.5.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.3"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/System.Memory.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Memory.dll": {}
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Numerics",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Numerics.Vectors.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Numerics.Vectors.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/5.0.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net47/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net47/System.ValueTuple.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x64": {
+      "OpenCvSharp4/4.5.2.20210404": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "5.0.2",
+          "System.Memory": "4.5.4",
+          "System.Runtime.CompilerServices.Unsafe": "5.0.0",
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/net461/OpenCvSharp.Extensions.dll": {},
+          "lib/net461/OpenCvSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net461/OpenCvSharp.Extensions.dll": {},
+          "lib/net461/OpenCvSharp.dll": {}
+        }
+      },
+      "OpenCvSharp4.runtime.win/4.5.2.20210404": {
+        "type": "package",
+        "native": {
+          "runtimes/win-x64/native/OpenCvSharpExtern.dll": {},
+          "runtimes/win-x64/native/opencv_videoio_ffmpeg452_64.dll": {}
+        },
+        "build": {
+          "build/net/OpenCvSharp4.runtime.win.props": {}
+        }
+      },
+      "OpenCvSharp4.Windows/4.5.2.20210404": {
+        "type": "package",
+        "dependencies": {
+          "OpenCvSharp4": "4.5.2.20210404",
+          "OpenCvSharp4.WpfExtensions": "4.5.2.20210404",
+          "OpenCvSharp4.runtime.win": "4.5.2.20210404"
+        }
+      },
+      "OpenCvSharp4.WpfExtensions/4.5.2.20210404": {
+        "type": "package",
+        "dependencies": {
+          "OpenCvSharp4": "4.5.2.20210404"
+        },
+        "compile": {
+          "lib/net461/OpenCvSharp.WpfExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/net461/OpenCvSharp.WpfExtensions.dll": {}
+        }
+      },
+      "System.Buffers/4.5.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net45/System.Buffers.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Buffers.dll": {}
+        }
+      },
+      "System.Drawing.Common/5.0.2": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Drawing",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Drawing.Common.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Drawing.Common.dll": {}
+        }
+      },
+      "System.Memory/4.5.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.5.1",
+          "System.Numerics.Vectors": "4.5.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.3"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/System.Memory.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Memory.dll": {}
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Numerics",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Numerics.Vectors.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Numerics.Vectors.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/5.0.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net47/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net47/System.ValueTuple.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x86": {
+      "OpenCvSharp4/4.5.2.20210404": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "5.0.2",
+          "System.Memory": "4.5.4",
+          "System.Runtime.CompilerServices.Unsafe": "5.0.0",
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/net461/OpenCvSharp.Extensions.dll": {},
+          "lib/net461/OpenCvSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net461/OpenCvSharp.Extensions.dll": {},
+          "lib/net461/OpenCvSharp.dll": {}
+        }
+      },
+      "OpenCvSharp4.runtime.win/4.5.2.20210404": {
+        "type": "package",
+        "native": {
+          "runtimes/win-x86/native/OpenCvSharpExtern.dll": {},
+          "runtimes/win-x86/native/opencv_videoio_ffmpeg452.dll": {}
+        },
+        "build": {
+          "build/net/OpenCvSharp4.runtime.win.props": {}
+        }
+      },
+      "OpenCvSharp4.Windows/4.5.2.20210404": {
+        "type": "package",
+        "dependencies": {
+          "OpenCvSharp4": "4.5.2.20210404",
+          "OpenCvSharp4.WpfExtensions": "4.5.2.20210404",
+          "OpenCvSharp4.runtime.win": "4.5.2.20210404"
+        }
+      },
+      "OpenCvSharp4.WpfExtensions/4.5.2.20210404": {
+        "type": "package",
+        "dependencies": {
+          "OpenCvSharp4": "4.5.2.20210404"
+        },
+        "compile": {
+          "lib/net461/OpenCvSharp.WpfExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/net461/OpenCvSharp.WpfExtensions.dll": {}
+        }
+      },
+      "System.Buffers/4.5.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net45/System.Buffers.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Buffers.dll": {}
+        }
+      },
+      "System.Drawing.Common/5.0.2": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Drawing",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Drawing.Common.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Drawing.Common.dll": {}
+        }
+      },
+      "System.Memory/4.5.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.5.1",
+          "System.Numerics.Vectors": "4.5.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.3"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/System.Memory.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Memory.dll": {}
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Numerics",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Numerics.Vectors.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Numerics.Vectors.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/5.0.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net47/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net47/System.ValueTuple.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OpenCvSharp4/4.5.2.20210404": {
+      "sha512": "NWoTTxAi5qmtI14DnXpw8Xq3bJWoIFLrMC3bbV9GVeWwfRMIWgv1i11ns2Aus0sve9pHREyzgVQm6nAL3S1/rw==",
+      "type": "package",
+      "path": "opencvsharp4/4.5.2.20210404",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/OpenCvSharp.Extensions.dll",
+        "lib/net461/OpenCvSharp.Extensions.xml",
+        "lib/net461/OpenCvSharp.dll",
+        "lib/net461/OpenCvSharp.xml",
+        "lib/netcoreapp2.1/OpenCvSharp.Extensions.dll",
+        "lib/netcoreapp2.1/OpenCvSharp.Extensions.xml",
+        "lib/netcoreapp2.1/OpenCvSharp.dll",
+        "lib/netcoreapp2.1/OpenCvSharp.xml",
+        "lib/netstandard2.0/OpenCvSharp.Extensions.dll",
+        "lib/netstandard2.0/OpenCvSharp.Extensions.xml",
+        "lib/netstandard2.0/OpenCvSharp.dll",
+        "lib/netstandard2.0/OpenCvSharp.xml",
+        "lib/netstandard2.1/OpenCvSharp.Extensions.dll",
+        "lib/netstandard2.1/OpenCvSharp.Extensions.xml",
+        "lib/netstandard2.1/OpenCvSharp.dll",
+        "lib/netstandard2.1/OpenCvSharp.xml",
+        "opencvsharp4.4.5.2.20210404.nupkg.sha512",
+        "opencvsharp4.nuspec"
+      ]
+    },
+    "OpenCvSharp4.runtime.win/4.5.2.20210404": {
+      "sha512": "44JNeD/dKlbdQEgwxLx+i2WL3DhIVvXjhsRLdBHe0c+2ZNWG/3FJ24Pp1IK7GIrB7KaE1vQk42tCNHJWAvJRRg==",
+      "type": "package",
+      "path": "opencvsharp4.runtime.win/4.5.2.20210404",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net/OpenCvSharp4.runtime.win.props",
+        "build/netcoreapp/OpenCvSharp4.runtime.win.props",
+        "build/netstandard/OpenCvSharp4.runtime.win.props",
+        "opencvsharp4.runtime.win.4.5.2.20210404.nupkg.sha512",
+        "opencvsharp4.runtime.win.nuspec",
+        "runtimes/win-x64/native/OpenCvSharpExtern.dll",
+        "runtimes/win-x64/native/opencv_videoio_ffmpeg452_64.dll",
+        "runtimes/win-x86/native/OpenCvSharpExtern.dll",
+        "runtimes/win-x86/native/opencv_videoio_ffmpeg452.dll"
+      ]
+    },
+    "OpenCvSharp4.Windows/4.5.2.20210404": {
+      "sha512": "1DfCI0OQH2EKqFP13TeTS9i2myJ1J8hZYnvet+VZYHifJFAQrZj5UFkWUog4/0baIARS1socrgWbCkQdjGvDCg==",
+      "type": "package",
+      "path": "opencvsharp4.windows/4.5.2.20210404",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "opencvsharp4.windows.4.5.2.20210404.nupkg.sha512",
+        "opencvsharp4.windows.nuspec"
+      ]
+    },
+    "OpenCvSharp4.WpfExtensions/4.5.2.20210404": {
+      "sha512": "IN6JOZQMhl+4hxLfYJnM2hvLvCHWL4PUF+eEbPsnqQijEfKszSKrGTLAlcY7Xim/Lu6ExfX3TDMIiJgib8N59A==",
+      "type": "package",
+      "path": "opencvsharp4.wpfextensions/4.5.2.20210404",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/OpenCvSharp.WpfExtensions.dll",
+        "lib/net461/OpenCvSharp.WpfExtensions.xml",
+        "lib/netcoreapp3.1/OpenCvSharp.WpfExtensions.dll",
+        "lib/netcoreapp3.1/OpenCvSharp.WpfExtensions.xml",
+        "opencvsharp4.wpfextensions.4.5.2.20210404.nupkg.sha512",
+        "opencvsharp4.wpfextensions.nuspec"
+      ]
+    },
+    "System.Buffers/4.5.1": {
+      "sha512": "Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
+      "type": "package",
+      "path": "system.buffers/4.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Buffers.dll",
+        "lib/net461/System.Buffers.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.1/System.Buffers.dll",
+        "lib/netstandard1.1/System.Buffers.xml",
+        "lib/netstandard2.0/System.Buffers.dll",
+        "lib/netstandard2.0/System.Buffers.xml",
+        "lib/uap10.0.16299/_._",
+        "ref/net45/System.Buffers.dll",
+        "ref/net45/System.Buffers.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.1/System.Buffers.dll",
+        "ref/netstandard1.1/System.Buffers.xml",
+        "ref/netstandard2.0/System.Buffers.dll",
+        "ref/netstandard2.0/System.Buffers.xml",
+        "ref/uap10.0.16299/_._",
+        "system.buffers.4.5.1.nupkg.sha512",
+        "system.buffers.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Drawing.Common/5.0.2": {
+      "sha512": "rvr/M1WPf24ljpvvrVd74+NdjRUJu1bBkspkZcnzSZnmAUQWSvanlQ0k/hVHk+cHufZbZfu7vOh/vYc0q5Uu/A==",
+      "type": "package",
+      "path": "system.drawing.common/5.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.Drawing.Common.dll",
+        "lib/netcoreapp3.0/System.Drawing.Common.dll",
+        "lib/netcoreapp3.0/System.Drawing.Common.xml",
+        "lib/netstandard2.0/System.Drawing.Common.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.Drawing.Common.dll",
+        "ref/netcoreapp3.0/System.Drawing.Common.dll",
+        "ref/netcoreapp3.0/System.Drawing.Common.xml",
+        "ref/netstandard2.0/System.Drawing.Common.dll",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll",
+        "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll",
+        "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.xml",
+        "runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll",
+        "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll",
+        "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.xml",
+        "system.drawing.common.5.0.2.nupkg.sha512",
+        "system.drawing.common.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Memory/4.5.4": {
+      "sha512": "1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+      "type": "package",
+      "path": "system.memory/4.5.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Memory.dll",
+        "lib/net461/System.Memory.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.4.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Numerics.Vectors/4.5.0": {
+      "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
+      "type": "package",
+      "path": "system.numerics.vectors/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Numerics.Vectors.dll",
+        "lib/net46/System.Numerics.Vectors.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.Numerics.Vectors.dll",
+        "lib/netstandard1.0/System.Numerics.Vectors.xml",
+        "lib/netstandard2.0/System.Numerics.Vectors.dll",
+        "lib/netstandard2.0/System.Numerics.Vectors.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.xml",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/System.Numerics.Vectors.dll",
+        "ref/net45/System.Numerics.Vectors.xml",
+        "ref/net46/System.Numerics.Vectors.dll",
+        "ref/net46/System.Numerics.Vectors.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/System.Numerics.Vectors.dll",
+        "ref/netstandard1.0/System.Numerics.Vectors.xml",
+        "ref/netstandard2.0/System.Numerics.Vectors.dll",
+        "ref/netstandard2.0/System.Numerics.Vectors.xml",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.numerics.vectors.4.5.0.nupkg.sha512",
+        "system.numerics.vectors.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/5.0.0": {
+      "sha512": "ZD9TMpsmYJLrxbbmdvhwt9YEgG5WntEnZ/d1eH8JBX9LBp+Ju8BSBhUGbZMNVHHomWo2KVImJhTDl2hIgw/6MA==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net45/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net45/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/net461/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.1/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.1/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.ValueTuple/4.5.0": {
+      "sha512": "okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "type": "package",
+      "path": "system.valuetuple/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.ValueTuple.dll",
+        "lib/net461/System.ValueTuple.xml",
+        "lib/net47/System.ValueTuple.dll",
+        "lib/net47/System.ValueTuple.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.ValueTuple.dll",
+        "lib/netstandard1.0/System.ValueTuple.xml",
+        "lib/netstandard2.0/_._",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.ValueTuple.dll",
+        "ref/net47/System.ValueTuple.dll",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/_._",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.valuetuple.4.5.0.nupkg.sha512",
+        "system.valuetuple.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "OpenCvSharp4 >= 4.5.2.20210404",
+      "OpenCvSharp4.Windows >= 4.5.2.20210404",
+      "OpenCvSharp4.WpfExtensions >= 4.5.2.20210404",
+      "OpenCvSharp4.runtime.win >= 4.5.2.20210404",
+      "System.Buffers >= 4.5.1",
+      "System.Drawing.Common >= 5.0.2",
+      "System.Memory >= 4.5.4",
+      "System.Numerics.Vectors >= 4.5.0",
+      "System.Runtime.CompilerServices.Unsafe >= 5.0.0",
+      "System.ValueTuple >= 4.5.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\h0104\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\h0104\\Desktop\\Infinite-Gym\\Gym_Main\\Gym_Main.csproj",
+      "projectName": "Gym_Main",
+      "projectPath": "C:\\Users\\h0104\\Desktop\\Infinite-Gym\\Gym_Main\\Gym_Main.csproj",
+      "packagesPath": "C:\\Users\\h0104\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\h0104\\Desktop\\Infinite-Gym\\Gym_Main\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\h0104\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "dependencies": {
+          "OpenCvSharp4": {
+            "target": "Package",
+            "version": "[4.5.2.20210404, )"
+          },
+          "OpenCvSharp4.Windows": {
+            "target": "Package",
+            "version": "[4.5.2.20210404, )"
+          },
+          "OpenCvSharp4.WpfExtensions": {
+            "target": "Package",
+            "version": "[4.5.2.20210404, )"
+          },
+          "OpenCvSharp4.runtime.win": {
+            "target": "Package",
+            "version": "[4.5.2.20210404, )"
+          },
+          "System.Buffers": {
+            "target": "Package",
+            "version": "[4.5.1, )"
+          },
+          "System.Drawing.Common": {
+            "target": "Package",
+            "version": "[5.0.2, )"
+          },
+          "System.Memory": {
+            "target": "Package",
+            "version": "[4.5.4, )"
+          },
+          "System.Numerics.Vectors": {
+            "target": "Package",
+            "version": "[4.5.0, )"
+          },
+          "System.Runtime.CompilerServices.Unsafe": {
+            "target": "Package",
+            "version": "[5.0.0, )"
+          },
+          "System.ValueTuple": {
+            "target": "Package",
+            "version": "[4.5.0, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

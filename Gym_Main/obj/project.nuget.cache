@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "ogAk3+zWW+9paLfsp6GSN67pUG1rQV0DIIoFclyyOadami7xB2CpA89VcWF96eNi1jMQgRIVhHU7KRWBGdpC5g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\h0104\\Desktop\\Infinite-Gym\\Gym_Main\\Gym_Main.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\h0104\\.nuget\\packages\\opencvsharp4\\4.5.2.20210404\\opencvsharp4.4.5.2.20210404.nupkg.sha512",
+    "C:\\Users\\h0104\\.nuget\\packages\\opencvsharp4.runtime.win\\4.5.2.20210404\\opencvsharp4.runtime.win.4.5.2.20210404.nupkg.sha512",
+    "C:\\Users\\h0104\\.nuget\\packages\\opencvsharp4.windows\\4.5.2.20210404\\opencvsharp4.windows.4.5.2.20210404.nupkg.sha512",
+    "C:\\Users\\h0104\\.nuget\\packages\\opencvsharp4.wpfextensions\\4.5.2.20210404\\opencvsharp4.wpfextensions.4.5.2.20210404.nupkg.sha512",
+    "C:\\Users\\h0104\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\h0104\\.nuget\\packages\\system.drawing.common\\5.0.2\\system.drawing.common.5.0.2.nupkg.sha512",
+    "C:\\Users\\h0104\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\h0104\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\h0104\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "C:\\Users\\h0104\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
